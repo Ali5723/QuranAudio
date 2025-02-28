@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Amiri;
+  src: url(../assets/fonts/Amiri/Amiri.ttf);
+}
+* {
+  background: #35363a;
+  color: #fff;
+  direction: rtl;
+}
+.container {
+  font-family: Amiri;
+  text-align: center;
+}
+.container #searchInput {
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.container #audio {
+  display: none;
+}
+.container .title {
+  font-size: 50px;
+  margin: 0;
+}
+.container hr {
+  width: 30%;
+}
+.container #list .listItem {
+  list-style: none;
+}
+.container #list .listItem .listItemPlayButton {
+  background-color: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  border: 0;
+  padding: 8px 15px;
+  color: #fff;
+  zoom: 300%;
+  background-image: url(../assets/images/play.svg);
+}
+.container #list .listItem .listItemPlayButton:hover {
+  cursor: pointer;
+}
+.container #list .listItem .listItemPlayButton + p {
+  font-size: 20px;
+}
+.container #list .listItem .listItemPauseButton {
+  background-color: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  border: 0;
+  padding: 8px 15px;
+  color: #fff;
+  zoom: 300%;
+  background-image: url(../assets/images/pause.svg);
+}
+.container #list .listItem .listItemPauseButton:hover {
+  cursor: pointer;
+}
+.container #list .listItem .listItemPauseButton + p {
+  font-size: 20px;
+}
+.container #list .listItem .listItemReader {
+  color: red;
+}
+.container #list .listItem hr {
+  width: 60%;
+}
+
+.container #list #upperLi .listItemReader {
+  color: #3fac3f;
+  font-size: 23px;
+}
+.container #list #upperLi hr {
+  width: 45%;
+}
+
+#creditsButton {
+  font-size: 16px;
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  background-color: #35363a;
+  color: #fff;
+  cursor: pointer;
+}
+#creditsButton:hover {
+  background-color: #555;
+}
+
+.hide {
+  display: none;
+}

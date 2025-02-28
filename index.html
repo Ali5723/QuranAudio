@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Primary Meta Tags -->
+        <title>Quran Audio</title>
+        <meta name="title" content="Quran Audio"></meta>
+        <meta name="description" content="Small website that gives you access to over 100 stations to help you listen to the Quran from your favorite reciters easily."></meta>
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:url" content="https://ali5723.github.io/QuranAudio/"></meta>
+        <meta property="og:title" content="Quran Audio"></meta>
+        <meta property="og:description" content="Small website that gives you access to over 100 stations to help you listen to the Quran from your favorite reciters easily."></meta>
+        <meta property="og:image" content="https://ali5723.github.io/QuranAudio/thumbnail.jpeg"></meta>
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:url" content="https://ali5723.github.io/QuranAudio/"></meta>
+        <meta name="twitter:title" content="Quran Audio"></meta>
+        <meta name="twitter:description" content="Small website that gives you access to over 100 stations to help you listen to the Quran from your favorite reciters easily."></meta>
+        <meta name="twitter:image" content="https://ali5723.github.io/QuranAudio/thumbnail.jpeg"></meta>
+        <!-- Optional Meta Tags -->
+        <meta name="keywords" content="Quran Radio, Quran Audio, Islamic Radio, Quran Stations, Online Quran, Quran Streaming, Islamic Audio, Quranic Recitations, Quran Player, Islamic Content, Quranic Stations, Quranic Audio Streaming, Islamic Music, Quranic Broadcast, Quranic Radio App"></meta>
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="content-type" content="text/html; charset=utf-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="author" content="Ali Amen"></meta>
+        <meta name="language" content="Arabic"></meta>
+        <!-- Meta Tags Generated with https://ali5723.github.io/metaGenerator/ -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body onload="createAllListItem()">
+        <div class="container">
+            <input
+                type="text"
+                id="searchInput"
+                onkeyup="searchInput()"
+                placeholder="ابحث فى الإذاعات ...."
+            >
+            <button id="creditsButton" onclick="showCredits()">Credits</button>
+            <audio id="audio"></audio>
+            <h1 class="title">قائمة الإذاعات</h1>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <br>
+            <ul id="list">
+                <li id="upperLi" class="listItem hide">
+                    <hr>
+                    <hr>
+                    <hr>
+                    <br>
+                </li>
+            </ul>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
